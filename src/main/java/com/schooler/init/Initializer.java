@@ -1,4 +1,4 @@
-package com.sprhib.init;
+package com.schooler.init;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

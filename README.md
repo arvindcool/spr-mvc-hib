@@ -1,4 +1,4 @@
-spr-mvc-hib
+Schooler
 ===========
 
-Spring MVC + Hibernate + Maven tutorial with all CRUD operations
+Dota Hub Developement Club

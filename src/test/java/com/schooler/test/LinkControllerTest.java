@@ -1,4 +1,4 @@
-package com.sprhib.test;
+package com.schooler.test;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.*;
@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.sprhib.init.BaseTestConfig;
+import com.test.schooler.init.BaseTestConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

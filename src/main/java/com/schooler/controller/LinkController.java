@@ -1,4 +1,4 @@
-package com.sprhib.controller;
+package com.schooler.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -9,12 +9,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Add team page</title>
+<title>Edit school page</title>
 </head>
 <body>
-<h1>Add team page</h1>
-<p>Here you can add a new team.</p>
-<form:form method="POST" commandName="team" action="${pageContext.request.contextPath}/team/add.html">
+<h1>Edit school page</h1>
+<p>Here you can edit the existing school.</p>
+<p>${message}</p>
+<form:form method="POST" commandName="school" action="${pageContext.request.contextPath}/school/edit/${school.id}.html">
 <table>
 <tbody>
 	<tr>
@@ -22,11 +23,11 @@
 		<td><form:input path="name" /></td>
 	</tr>
 	<tr>
-		<td>Rating:</td>
-		<td><form:input path="rating" /></td>
+		<td>School Id:</td>
+		<td><form:input path="schoolId" /></td>
 	</tr>
 	<tr>
-		<td><input type="submit" value="Add" /></td>
+		<td><input type="submit" value="Edit" /></td>
 		<td></td>
 	</tr>
 </tbody>

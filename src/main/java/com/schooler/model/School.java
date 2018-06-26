@@ -1,4 +1,4 @@
-package com.sprhib.model;
+package com.schooler.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="teams")
-public class Team {
+@Table(name="School")
+public class School {
 	
 	@Id
 	@GeneratedValue
@@ -15,7 +15,7 @@ public class Team {
 	
 	private String name;
 	
-	private Integer rating;
+	private Integer schoolId;
 	
 	public Integer getId() {
 		return id;
@@ -29,11 +29,11 @@ public class Team {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Integer getRating() {
-		return rating;
+	public Integer getSchoolId() {
+		return schoolId;
 	}
-	public void setRating(Integer rating) {
-		this.rating = rating;
+	public void setSchoolId(Integer schoolId) {
+		this.schoolId = schoolId;
 	}
 
 }
